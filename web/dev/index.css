@@ -1,0 +1,87 @@
+#header {
+    /* 
+    flex-direction: column;
+    position: relative; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#icon_bars {
+    max-width: 35px;
+    max-height: 35px;
+    width: auto;
+    height: auto;
+}
+
+#button_header {
+    color: 	#f655a0;
+    background: transparent;
+    border: none !important;
+    font-size: 20px;
+ 
+}
+ 
+#button_header:hover {
+    font-size: 22px;
+    color: #6657a4;
+    cursor: pointer;
+}
+
+#button {
+    background: #fd8900;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 30%;
+    position: relative;
+    top: 30%; 
+    left: 30%;
+}
+
+.button_links {
+    display: flex;
+    
+}
+
+#text {
+    color: #8B008B;
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 100px;
+}
+
+#register_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+
+}
+
+.candidata {
+    background-color: red;
+    width: 50%;
+    height: 500px;
+    float: left;
+    display: grid;
+    align-items: center;
+}
+
+.empresa {
+    /* background-color: blue; */
+    width: 50%;
+    height: 500px;
+    float: right;
+    display: grid;
+    align-items: center;
+    background-image: url("../images/empresa1.jpg");
+    background-size: 100%;
+    overflow: hidden;
+    color: #f655a0;
+}
+
+div #header {
+    display: inline;
+}
+
+.thumb_area
